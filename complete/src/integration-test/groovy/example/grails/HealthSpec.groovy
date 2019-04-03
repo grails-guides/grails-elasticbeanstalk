@@ -23,7 +23,7 @@ class HealthSpec extends Specification {
 
     void "health responds OK"()  {
         when:
-        Map m = client.toBlocking().retrieve(HttpRequest.GET("/health"), Map) // <3>
+        Map m = client.toBlocking().retrieve(HttpRequest.GET("/actuator/health"), Map) // <3>
 
         then:
         m

@@ -51,6 +51,6 @@ Now you are ready to click **Create Environment**.
 
 image::elasticbeanstalk8.png[]
 
-After a few minutes you will be able to access the `/health` endpoint.
+After a few minutes you will be able to access the `/actuator/health` endpoint.
 
 image::elasticbeanstalk9.png[]

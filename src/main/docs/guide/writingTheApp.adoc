@@ -30,7 +30,7 @@ include::{sourceDir}/build.gradle[tag=micronaut-http-client]
 }
 ----
 
-Once you enable the Spring Boot actuators a `/health` endpoint is exposed.
+Once you enable the Spring Boot actuators a `/actuator/health` endpoint is exposed.
 
 Create a test which verifies it:
 
