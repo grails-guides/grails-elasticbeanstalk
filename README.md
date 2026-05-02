@@ -1,4 +1,11 @@
-# Grails Elastic Beanstalk
+# Deploy to AWS ElasticBeanstalk
 
-This guide is available at http://guides.grails.io/grails-elasticbeanstalk/guide/index.html
+This repository contains the worked sample app for the [Deploy to AWS ElasticBeanstalk](https://grails.apache.org/guides/grails-elasticbeanstalk/4/guide/index.html) guide on the Apache Grails site.
 
+## Run the example
+
+`./gradlew bootRun`
+
+## Maintained at apache/grails-static-website
+
+The guide narrative is maintained at https://github.com/apache/grails-static-website. Changes to the guide content go there; this repo holds the worked sample app only.
